@@ -1928,7 +1928,7 @@ a:focus {
 	font-size: 16px;
 	line-height: 22px;
 	color: #7b7a7a;
-	text-transform: uppercase;
+/* 	text-transform: uppercase; */
 }
 
 .product-sec .filter-list a {
