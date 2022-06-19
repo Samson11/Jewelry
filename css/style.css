@@ -41,7 +41,6 @@ Primary use:  HTML Template for Jewelry
 31. Footer / #footer
 32. Blockquote Section / .blockquote-sec
 33. Shoping Cart Detail / .shoping-cart-detail
-34. Blog Heading / .blog-heading
 35. Blog Slider / .blog-slider
 36. Post Slider / .post-slider
 37. About Descrp / .about-descrp
@@ -61,6 +60,14 @@ Primary use:  HTML Template for Jewelry
 	position: relative;
 	overflow: hidden;
 	width: 100%;
+}
+
+.product-slider {
+	display: flex;
+}
+
+.item > img {
+	object-fit: cover;
 }
 
 .clearfix:after,
